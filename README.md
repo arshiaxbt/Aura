@@ -34,7 +34,7 @@
 ### 💫 Instant Hover Tooltips
 - Hover over any detected address to see reputation instantly
 - View Ethos credibility score (0-2000) with visual tier indicator
-- Color-coded rings: 🟢 Green (trusted) | 🟡 Yellow (neutral) | 🔴 Red (warning)
+- **Dynamic Color Rings**: Visual indicators representing the reputation tier of the address
 - Quick access to vouch count, reviews, and profile stats
 
 ### 🛡️ RiskShield Security Scanner
@@ -165,5 +165,5 @@ Contributions welcome! Please feel free to submit a Pull Request.
 ---
 
 <p align="center">
-  Made with 💜 by <a href="https://github.com/arshiaxbt">@arshiaxbt</a>
+  Made with 💜 by <a href="https://x.com/0xarshia">@0xarshia</a>
 </p>
