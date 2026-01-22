@@ -1,0 +1,52 @@
+{
+  "name": "aura-ethos-overlay",
+  "displayName": "Aura - Ethos Credibility Overlay",
+  "version": "1.5.2",
+  "description": "Instantly see Ethos Network credibility scores for Ethereum addresses and ENS names on any webpage",
+  "author": "arshiaxbt",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "sharp": "^0.34.5",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "^4.0.1",
+    "@types/chrome": "^0.0.258",
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.17",
+    "jiti": "^1.21.0",
+    "plasmo": "^0.90.5",
+    "postcss": "^8.4.33",
+    "prettier": "^3.2.4",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.9.3"
+  },
+  "manifest": {
+    "permissions": [
+      "storage",
+      "activeTab",
+      "tabs",
+      "identity"
+    ],
+    "host_permissions": [
+      "https://api.ethos.network/*",
+      "https://auth.privy.io/*",
+      "https://*.privy.io/*",
+      "https://*.twitter.com/*",
+      "https://*.x.com/*",
+      "https://*.etherscan.io/*",
+      "https://api.gopluslabs.io/*",
+      "https://raw.githubusercontent.com/*"
+    ]
+  }
+}
